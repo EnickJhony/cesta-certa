@@ -6,11 +6,12 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'App Cesta Certa',
-  description: 'Aplicação colaborativa para armazenagem de itens da Cesta Certa',
+  description:
+    'Aplicação colaborativa para armazenagem de itens da Cesta Certa',
 }
 
 export default function RootLayout({
-  children
+  children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
